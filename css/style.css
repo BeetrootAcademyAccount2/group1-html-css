@@ -1,0 +1,76 @@
+.rectangle-black-header {
+  height: 742px;
+  width: 1728px;
+  background-color: black;
+  transform: translateY(-10px);
+}
+
+.flex-container-header {
+  display: flex;
+  flex-direction: row;
+  padding-left: 800px;
+  transform: translateY(-600px);
+}
+
+.pink-bear-home-page {
+  height: 296.2px;
+  width: 524px;
+  padding-left: 120px;
+}
+
+.pink-bear-h1 {
+  font-size: 46px;
+  color: #ffc0cb;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.rectangle-grey-main {
+  margin-left: 700px;
+  margin-block-start: -726px;
+  height: 1144px;
+  width: 1136px;
+  background-color: #d9d9d9;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rectangle-pink-img-container {
+  height: 429.5px;
+  width: 558px;
+  background-color: #ffc0cb;
+  box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
+}
+
+.rectangle-pink-img-container img {
+  height: 390px;
+  width: 520px;
+  padding: 20px;
+}
+
+.main-title {
+  text-align: center;
+  padding-left: 150px;
+}
+
+p {
+  text-align: center;
+  padding-left: 140px;
+  font-size: 24px;
+}
+
+.book-a-table-btn {
+  height: 84px;
+  width: 386px;
+  color: white;
+  font-size: 32px;
+  border: none;
+  border-radius: 20px;
+  background-color: #00ffff;
+  padding: 12px 12px 12px 18px;
+  transform: translateX(140px);
+}
