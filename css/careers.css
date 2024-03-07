@@ -1,0 +1,155 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-svg:hover {
+  transition-duration: 0.7s;
+  transform: rotate(720deg);
+}
+
+#form-job {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 1012px;
+  margin: 82px 0px 194px 304px;
+  background-color: #ffbfcb;
+  border-radius: 12px;
+  border: 1px solid #eddede;
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.form-header {
+  font-size: 40px;
+  line-height: 46px;
+  padding-left: 92px;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px 16px;
+  padding-left: 92px;
+  padding-right: 92px;
+}
+
+.form-container__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.lable-title {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.input-container {
+  height: 64px;
+  background: #ffffff;
+  font-size: 150%;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  width: 100%;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.scale-container {
+  height: 68px;
+  border-radius: 0%;
+  background-color: #ffffff;
+  width: 100%;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.address {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 150%;
+}
+
+#enter-address {
+  resize: vertical;
+  min-height: 224px;
+  max-height: 300px;
+  border: none;
+}
+
+.btn-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sbm-button {
+  width: 552px;
+  height: 58px;
+  margin-top: 48px;
+  background-color: #1b52df;
+  color: #fffefe;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-size: 36px;
+  line-height: 42px;
+  transition-duration: 0.7s;
+}
+
+.inline-input {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.upload-btn {
+  background-color: #fffefe;
+  color: grey;
+  height: 60px;
+  width: fit-content;
+  font-size: 36px;
+  cursor: pointer;
+  margin: 0px;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: #000000;
+  border: 0.5px solid grey;
+  border-radius: 0;
+  font-size: 36px;
+  height: 60px;
+  cursor: pointer;
+}
+
+/* Styles on hover */
+
+.input-container:hover,
+textarea:hover {
+  background-color: #dcd3d3;
+}
+
+.sbm-button:hover {
+  background-color: #dcd3d3;
+  color: #1b52df;
+  border: 1px solid #1b52df;
+}
+
+input::file-selector-button:hover {
+  color: #1b52df;
+}
