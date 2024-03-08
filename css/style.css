@@ -1,6 +1,6 @@
 .rectangle-black-header {
   height: 742px;
-  width: 1728px;
+  width: 100vh;
   background-color: black;
   transform: translateY(-10px);
 }
@@ -8,7 +8,8 @@
 .flex-container-header {
   display: flex;
   flex-direction: row;
-  padding-left: 800px;
+  margin-left: 25%;
+  margin-right: 25%;
   transform: translateY(-600px);
 }
 
@@ -25,21 +26,19 @@
   padding-top: 35px;
 }
 
-.rectangle-grey-main {
-  margin-left: 700px;
-  margin-block-start: -726px;
-  height: 1144px;
-  width: 1136px;
-  background-color: #d9d9d9;
-}
-
 .flex-container {
+  background-color: #d9d9d9;
+  height: 1144px;
+  margin-block-start: -296px;
+  margin-left: 25%;
+  margin-right: 25%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .rectangle-pink-img-container {
+  margin-top: 300px;
   height: 429.5px;
   width: 558px;
   background-color: #ffc0cb;
@@ -53,6 +52,7 @@
 }
 
 .main-title {
+  margin-top: 330px;
   text-align: center;
   padding-left: 150px;
 }
