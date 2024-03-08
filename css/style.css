@@ -72,5 +72,5 @@ p {
   border-radius: 20px;
   background-color: #00ffff;
   padding: 12px 12px 12px 18px;
-  transform: translateX(140px);
+  margin-left: 140px;
 }
