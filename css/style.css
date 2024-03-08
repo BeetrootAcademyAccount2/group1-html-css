@@ -60,7 +60,7 @@
 p {
   text-align: center;
   padding-left: 140px;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .book-a-table-btn {
@@ -72,5 +72,5 @@ p {
   border-radius: 20px;
   background-color: #00ffff;
   padding: 12px 12px 12px 18px;
-  transform: translateX(140px);
+  margin-left: 140px;
 }
