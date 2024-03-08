@@ -8,7 +8,8 @@
 .flex-container-header {
   display: flex;
   flex-direction: row;
-  padding-left: 800px;
+  margin-left: 25%;
+  margin-right: 25%;
   transform: translateY(-600px);
 }
 
