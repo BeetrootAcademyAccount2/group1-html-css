@@ -66,7 +66,7 @@ p {
 .book-a-table-btn {
   height: 84px;
   width: 386px;
-  color: white;
+  color: rgba(255, 255, 255, 0.932);
   font-size: 32px;
   border: none;
   border-radius: 20px;
