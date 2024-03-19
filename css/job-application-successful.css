@@ -1,0 +1,37 @@
+header {
+  position: sticky;
+  top: 0;
+}
+
+.flex-container-booking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.job-application-p {
+  color: #00ff88;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 41.4px;
+  margin-bottom: 16px;
+}
+.checkmark {
+  padding-bottom: 16px;
+}
+.job-application-link {
+  color: #00ff88;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 41.4px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.job-application-link:hover {
+  text-decoration: none;
+  color: #00ff88;
+}
