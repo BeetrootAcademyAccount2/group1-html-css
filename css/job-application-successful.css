@@ -28,15 +28,37 @@ header {
   font-size: 36px;
   font-weight: 400;
   line-height: 41.4px;
-  text-decoration: underline;
   cursor: pointer;
+  padding-bottom: 10px;
 }
 .job-application-link:hover {
   text-decoration: none;
   color: #00ff88;
 }
-/* .footer-container {
-  position: fixed;
-  left: 0;
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #00ff88;
+}
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
   bottom: 0;
-} */
+  left: 0;
+  background-color: #00ff88;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
