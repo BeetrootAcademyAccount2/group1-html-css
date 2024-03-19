@@ -5,6 +5,8 @@
   text-align: right;
   font-size: 36px;
   background-color: black;
+  position: sticky;
+  top: 0;
 }
 
 .navbar li {

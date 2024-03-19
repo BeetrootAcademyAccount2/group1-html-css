@@ -8,7 +8,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 80vh;
 }
 
 .booking-p {
@@ -35,3 +35,8 @@ header {
   text-decoration: none;
   color: #00ff88;
 }
+/* .footer-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+} */
