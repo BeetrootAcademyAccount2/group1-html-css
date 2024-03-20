@@ -53,8 +53,9 @@
 
 .main-title {
   margin-top: 330px;
+  margin-left: 150px;
   text-align: center;
-  padding-left: 150px;
+  border-left: 4px solid #00ffff;
 }
 
 p {
