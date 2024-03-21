@@ -8,30 +8,29 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  transform: translateY(-600px);
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .pink-bear-home-page {
   height: 296.2px;
   width: 524px;
   padding-left: 120px;
+  padding-top: 120px;
 }
 
 .pink-bear-h1 {
-  font-size: 46px;
+  font-size: 3rem;
   color: #ffc0cb;
   text-align: center;
-  padding-top: 35px;
+  padding-top: 120px;
 }
 
 .flex-container {
   background-color: #d9d9d9;
   height: 1144px;
-  margin-block-start: -296px;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -56,19 +55,21 @@
   margin-left: 150px;
   text-align: center;
   border-left: 4px solid #00ffff;
+  font-size: 2rem;
 }
 
 p {
   text-align: center;
   padding-left: 140px;
-  font-size: 24px;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
 }
 
 .book-a-table-btn {
   height: 84px;
   width: 386px;
   color: white;
-  font-size: 32px;
+  font-size: 2rem;
   border: none;
   border-radius: 20px;
   background-color: #00ffff;
@@ -105,7 +106,6 @@ p {
 
 @media only screen and (min-width: 200px) and (max-width: 1400px) {
   .flex-container {
-    background-color: #d9d9d9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,5 +119,17 @@ p {
     margin-top: 50px;
     text-align: center;
     border-left: 4px solid #00ffff;
+  }
+
+  .book-a-table-btn {
+    height: 84px;
+    width: 286px;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00ffff;
+    padding: 12px 12px 12px 18px;
+    margin-left: 45%;
   }
 }
