@@ -1,12 +1,11 @@
 .navbar {
   position: sticky;
   top: 0;
-  margin: 0px auto;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: right;
   font-size: 36px;
-  background-color: black;
+  background-color: rgb(199, 26, 26);
 }
 
 .navbar li {
