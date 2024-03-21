@@ -4,7 +4,7 @@
   font-size: 32px;
   width: 100%;
   height: 94px;
-  padding: 5px;
+  /* Katya/ I removed it because it creates horizontal scroll/ padding: 5px; */
 }
 
 .footer-flex-container {
@@ -14,4 +14,13 @@
   padding-top: 25px;
   margin-left: 15px;
   margin-right: 20px;
+}
+
+/* I added this part to footer.css, so social media icons will have more space between them */
+
+.footer-social-media--list {
+  width: 15%;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
 }
