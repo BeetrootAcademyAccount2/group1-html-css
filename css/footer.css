@@ -19,8 +19,8 @@
 /* I added this part to footer.css, so social media icons will have more space between them */
 
 .footer-social-media--list {
-  width: 15%;
-  padding-right: 50px;
+  width: 13%;
+  padding-right: 40px;
   display: flex;
   justify-content: space-between;
 }

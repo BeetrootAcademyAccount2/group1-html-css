@@ -2,11 +2,11 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
-/* Header */
-
+/* Header  (Inna - you don´t need all of this header code we need to be it the same on each page so I just added a link in your html) */
+/* 
 .header {
   display: grid;
   grid-template-columns: 20% 80%;
@@ -60,7 +60,7 @@ a:hover {
   background-color: #ffc0cb;
   padding: 12px 12px 12px 18px;
   border-radius: 20px;
-}
+} */
 
 /* Menu */
 
@@ -203,8 +203,8 @@ h1 {
 }
 
 .circle-phone-icon {
-  height: 82px;
-  width: 82px;
+  height: 80px;
+  width: 80px;
   background-color: #00ff00;
   margin: 10px 0 0 10px;
   border-radius: 50%;
