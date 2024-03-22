@@ -47,7 +47,8 @@ body {
 
 .lable-title {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 56px;
+  font-weight: 500;
 }
 
 .input-container {
