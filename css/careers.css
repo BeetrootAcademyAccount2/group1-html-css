@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 60vw;
-  height: 80vh;
+  height: fit-content;
   margin: 82px 0px 194px 304px;
   background-color: #ffbfcb;
   border-radius: 12px;
@@ -53,6 +53,7 @@ body {
 .input-container {
   height: 64px;
   background: #ffffff;
+  border: none;
   font-size: 150%;
 }
 
@@ -100,6 +101,7 @@ select {
   width: 552px;
   height: 58px;
   margin-top: 48px;
+  margin-bottom: 48px;
   background-color: #1b52df;
   color: #fffefe;
   border-radius: 3px;
@@ -139,7 +141,7 @@ input::file-selector-button {
 
 .input-container:hover,
 textarea:hover {
-  background-color: #dcd3d3;
+  border: 1px solid #000000;
 }
 
 .sbm-button:hover {
